@@ -1,4 +1,5 @@
 (ns backtype.storm.testing4j
+  (:require [backtype.storm.LocalCluster :as LocalLocalCluster])
   (:import [java.util Map List Collection ArrayList])
   (:import [backtype.storm Config ILocalCluster LocalCluster])
   (:import [backtype.storm.generated StormTopology])
